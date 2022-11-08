@@ -1,0 +1,49 @@
+.color1 {
+  color: #4d5976;
+}
+
+.color2 {
+  color: #2cdbac;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: row;
+  position: relative !important;
+}
+
+.home__left {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home__right {
+  width: 75vw;
+  height: 100vh;
+}
+
+.mapboxgl-ctrl-top-right {
+  top: 0;
+  left: 0 !important;
+}
+
+.geocoder {
+  top: 0;
+  left: 0 !important;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+  top: 0;
+  left: 0 !important;
+}
+
+.bkg-dark {
+  color: #fff;
+  background: #333;
+}
